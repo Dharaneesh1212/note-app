@@ -3,8 +3,7 @@
 const noteBtnEl = document.getElementById(`note-btn`);
 const cardEl = document.getElementById(`card`);
 const cancelEl = document.getElementById(`cancel`);
-const addNoteBtnEl = document.getElementById(`add-note-btn`)
-
+const addNoteBtnEl = document.getElementById(`add-note-btn`);
 
 const hide = function () {
   cardEl.classList.add(`close`);
@@ -13,11 +12,16 @@ const hide = function () {
 hide();
 
 noteBtnEl.addEventListener(`click`, () => {
-  noteBtnEl.classList.remove(`close`);
-  noteBtnEl.classList.add(`open`);
+  cardEl.classList.remove(`close`);
+  cardEl.classList.add(`open`);
 });
 
 cancelEl.addEventListener(`click`, () => {
-  cancelEl.classList.remove(`open`);
-  cancelEl.classList.add(`close`);
+  cardEl.classList.remove(`open`);
+  cardEl.classList.add(`close`);
 });
+
+
+
+
+
