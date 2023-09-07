@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="note-app">
+    <div class="note-app-one">
       <div class="button">
-        <button class="note-btn">
+        <button class="note-btn" id="note-btn">
           <img class="note-icon" src="./notes.png" alt="note-button" />
         </button>
       </div>
-      <div class="card">
+    </div>
+    <div class="note-app-two" id="note-app-two">
+      <div class="card" id="card">
         <div class="header">
           <h1>Add a new Note</h1>
-          <button class="cancel">X</button>
+          <button class="cancel" id="cancel">X</button>
         </div>
         <hr />
         <div class="title-bar">
@@ -25,10 +27,10 @@
         </div>
         <div class="description-bar">
           <label class="description">Description</label>
-          <input class="description-text" type="text" />
+          <textarea class="description-text" type="text"></textarea>
         </div>
         <div class="add-btn">
-          <button class="add-note-btn">Add note</button>
+          <button class="add-note-btn" id="add-note-btn">Add note</button>
         </div>
       </div>
     </div>
