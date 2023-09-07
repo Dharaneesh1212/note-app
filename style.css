@@ -37,7 +37,7 @@ textarea {
 
 .note-app-two {
   position: absolute;
-  height: 100vh;
+  height: 10vh;
   width: 100vw;
   /* top: 0; */
   /* left: 0; */
@@ -84,7 +84,7 @@ textarea {
   height: 3rem;
   font-size: 19px;
   border-color: grey;
-  border-style: 10px;
+  outline: none;
 }
 
 .description-bar {
@@ -98,6 +98,7 @@ textarea {
   height: 10rem;
   font-size: 19px;
   border-color: grey;
+  outline: none;
 }
 
 .add-btn {
@@ -123,8 +124,3 @@ textarea {
 .open {
   display: block;
 }
-
-
-
-
-
