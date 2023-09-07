@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(1, 1, 46, 0.932);
+}
+
+.note-app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-btn {
+  height: 18rem;
+  width: 19rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  background-color: rgb(224, 245, 248);
+}
+
+.note-icon {
+  width: 4rem;
+  height: 4rem;
+  color: rgba(1, 1, 46, 0.932);
+}
+
+.card {
+  height: 30rem;
+  width: 27rem;
+  background-color: rgb(255, 255, 255);
+  margin-right: 5rem;
+  border-radius: 0.4rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.cancel {
+  height: 1rem;
+  width: 2rem;
+  border-radius: 0.6rem;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+
+.title-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 25px;
+}
+
+.title-text {
+  height: 3rem;
+  font-size: 19px;
+  border-color: grey;
+  border-style: 10px;
+}
+
+.description-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 25px;
+}
+
+.description-text {
+  height: 10rem;
+  font-size: 19px;
+  border-color: grey;
+}
+
+.add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-note-btn {
+  font-size: 18px;
+  height: 3.5rem;
+  width: 25rem;
+  border-radius: 6px;
+  background-color: rgba(1, 1, 46, 0.932);
+  color: white;
+}
+
+
+
+
